@@ -1,5 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial,sans-serif;
+  text-align: center;
+  font-size: 45px;
+  color: white;
   margin: 0;
   padding: 0;
   background-color: #000000;

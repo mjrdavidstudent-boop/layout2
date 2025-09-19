@@ -1,12 +1,11 @@
 .container-green {
-  border: 4px solid green;
+  border: 6px solid green;
   background-color: #c7f0c7;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 1000px;
-  min-height: 85vh;
-  margin: 25px auto;
+  min-height: 100vh;
+  box-sizing: border-box;
   padding: 25px;
 }
 
@@ -42,6 +41,12 @@
   flex-direction: row;
   height: 90px;
   padding: 5px;
+}
+
+.box.box-red-small {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-red-small {
@@ -106,4 +111,10 @@
   border: 4px solid #f78072;
   height: 80px;
   flex: 1 1 120px;
+}
+
+.box.box-peach-small {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
